@@ -25,7 +25,7 @@ In choice number 3. Check inventory. Players are able to check the available sto
 
 In choice number 4. Check the amount of coins earned. While every order given is completed, players are able to earn a certain amount of coins. The total amount of coins earned for all level are calculated and stored here.
 
-In choice number 5. Quit. Players can quit the game by select choice number 5.
+In choice number 5. Quit. Players can quit the game by selecting choice number 5.
 
 ## How object-oriented concepts were used to develop the game.
 Class Hierarchy: The game have a class hierarchy that represents different objects in the game world. 
@@ -33,10 +33,10 @@ Class Hierarchy: The game have a class hierarchy that represents different objec
 Inheritance: Inheritance is employed to create specialized classes that inherit properties and behaviors from a base class. In Jujutsu Farm, 
 
 ## How linked lists/stacks/queues play a role in the game.
-Stack is used in class called PlantStack.
+Stack is used in a class called PlantStack.
 
-Queues is used in classes such as AnimalProduct and Order.
+Queue is used in classes such as AnimalProduct and Order.
 
 ## Screenshot of the game
-
+![try](C:\Users\yipin\OneDrive\Pictures\xiuqin)
 ## Link to the game  demo video
