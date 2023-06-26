@@ -38,5 +38,5 @@ Stack is used in a class called PlantStack.
 Queue is used in classes such as AnimalProduct and Order.
 
 ## Screenshot of the game
-![try](C:\Users\yipin\OneDrive\Pictures\xiuqin)
+
 ## Link to the game  demo video
