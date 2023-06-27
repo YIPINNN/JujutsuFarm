@@ -27,7 +27,9 @@ In choice number 3. Check inventory. Players are able to check the available sto
 
 In choice number 4. Check the amount of coins earned. While every order given is completed, players are able to earn a certain amount of coins. The total amount of coins earned for all level are calculated and stored here.
 
-In choice number 5. Quit. Players can quit the game by selecting choice number 5. All the progress of the game including the latest amount of inventory, incomplete order and total coins earned.
+In choice number 5. Restore the game progress. It will restore the previous game progress from txt file.
+
+In choice number 6. Quit. Players can quit the game by selecting choice number 5. All the progress of the game including the latest amount of inventory, incomplete order and total coins earned.
 
 
 ## How object-oriented concepts were used to develop the game.
