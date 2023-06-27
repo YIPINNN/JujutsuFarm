@@ -19,23 +19,31 @@ First, players need to enter their names. Next, players need to enter if are the
 
 In choice number 1. Plant new crops and rear new animals. Players need to enter the keyword plant to plant new crops and enter the keywords rear to rear animals to get the animal products. 
 
-In choice number 2. Complete customers' order. Each order will involve a specific amount of crops and animal products. Hence, players need to ensure that they have enough crops and animal products in their inventory to complete the order. Each level of the game is completed when players complete each order.
+In choice number 2. Complete customers' order. Each order will involve a specific amount of crops and animal products. Hence, players need to ensure that they have enough crops and animal products in their inventory to complete the order. Each level of the game is completed when players complete each order. After complete the order, the left amount of crops or animal products will be updated in the inventory.
 
 In choice number 3. Check inventory. Players are able to check the available storage of every crop and animal product by checking their inventory.
 
 In choice number 4. Check the amount of coins earned. While every order given is completed, players are able to earn a certain amount of coins. The total amount of coins earned for all level are calculated and stored here.
 
-In choice number 5. Quit. Players can quit the game by selecting choice number 5.
+In choice number 5. Quit. Players can quit the game by selecting choice number 5. All the progress of the game including the latest amount of inventory, incomplete order and total coins earned.
 
 ## How object-oriented concepts were used to develop the game.
-Class Hierarchy: The game have a class hierarchy that represents different objects in the game world. 
+In Jujutsu Farm, the composition is the primary mechanism for building the game's entities and structures. 
 
-Inheritance: Inheritance is employed to create specialized classes that inherit properties and behaviors from a base class. In Jujutsu Farm, 
+For example:
+plantAndRear Class: The "plantAndRear" class is the core class of Jujutsu Farm which represents how the player's farm works. The "plantAndRear" class is composed of various objects that collectively create the farm's functionality and structure. The "planAndRear" class composition 
+
+contains instances of crop and animal objects, as well as other game objects like inventory, marketplaces, and land plots. The Farm class is composed of these various objects, allowing for a flexible and modular design.
+
+PlantStack Class: The "PlantStack" class encapsulates properties and behaviors specific to each type of crop, such as the total amount harvested of crops, display the amount of harvested crops. Instances of the "PlantStack" class such as "Corn", "Paddy", "Soybean", "Tomato" and "Potato" are composed within the "plantAndRear" class to represent the different crops grown on the farm.
+
+AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behaviors specific to each type of animal product, such as . Instances of the Animal class are composed within the Farm class to represent the animals reared on the farm.
+
 
 ## How linked lists/stacks/queues play a role in the game.
-Stack is used in a class called PlantStack.
+Stack is used in a class called "PlantStack".
 
-Queue is used in classes such as AnimalProduct and Order.
+Queue is used in classes such as "AnimalProduct" and "Order".
 
 ## Screenshot of the game
 ![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
