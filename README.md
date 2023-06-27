@@ -120,8 +120,20 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
 
 
 ## Screenshot of the game
-![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
-
+![JF1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/80e574e5-62d4-44f0-a725-4d2ef0cb69e3)
+![JF2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/fa0a776e-bbb2-4fcf-b126-2b099feb705d)
+![JF3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/affb97d9-7691-46ef-93b1-2e9d41a87b6f)
+![JF4](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/13359087-4c6e-4dca-83b1-6e979ea3f478)
+![JF5](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/d9a6feb5-2705-4446-b672-2ffae06af092)
+![JF6](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/726e96f4-94e8-47bc-9e27-d497ef85b6de)
+![JF7](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/59383306-811e-42df-a38d-689064eb5531)
+![JF8](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/a7bedee6-620a-4339-bf90-b5eca24edc99)
+![JF2 1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/f5c3a071-c8ca-4886-9c59-9d02f38370b1)
+![JF2 2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/cfecaa6f-8f9d-4579-a23d-eba8c1e746dd)
+![JF2 3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/71d06616-dda1-40df-9f83-549c955b664d)
+![JF2 4](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/78a50534-2fee-4f53-a4ee-f29e9727f130)
+![JF2 5](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/15cced4f-cfaf-4306-bffb-67102c93cdc3)
+![JF2 6](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/962de13f-a5c4-446d-b49e-e0286e6181c6)
 
 ## Link to the game  demo video
 https://drive.google.com/file/d/1r1M-EYQWLQ7xY2GelK43swRq_uYYsSdP/view?usp=sharing
