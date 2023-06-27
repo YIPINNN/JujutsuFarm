@@ -6,7 +6,7 @@ Jujutsu Farm, a relaxing farming simulation game in which players begin on an ex
 ## Features of the game
 Planting Crops: Players can grow a variety of crops such as corn, tomatoes, potatoes, paddy, and soybeans. Each planting of seeds will harvest 5 crops.
 
-Rearing Animals: Players can raise animals like chickens, cows, sheep, and fish. These animals will turn into valuable animal products such as eggs, milk, wool, and fish.For example 1 chichken can produce 5 eggs.
+Rearing Animals: Players can raise animals like chickens, cows, sheep, and fish. These animals will turn into valuable animal products such as eggs, milk, wool, and fish. For example 1 chicken can produce 5 eggs.
 
 Level System: The game includes multiple levels, each with its own set of objectives. To progress to the next level, players must complete the given orders. These orders may involve specific crops or animal products that need to be harvested or produced.
 
