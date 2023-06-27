@@ -1,0 +1,7 @@
+1925
+4 1350 fish soybean 65 30
+5 2080 tomato corn 45 60
+6 2735 milk fish 55 75
+7 3068 paddy tomato 100 85
+8 3658 wool milk 80 95
+1000
