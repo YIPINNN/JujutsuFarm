@@ -1,4 +1,4 @@
-# Jujutsu Farm CPT113 Hackthon 2
+# CPT113 Hackthon 2 Jujutsu Farm
 
 ## Description of the game
 Jujutsu Farm, a relaxing farming simulation game in which players begin on an exciting agricultural adventure. In this fascinating environment, players are responsible for growing abundant crops and rearing a wide variety of adorable animals. In the Jujutsu Farm, players can plant crops such as corn, tomatoes, potatoes, paddy, and soybeans. Players also can rear animals such as chickens, cows, sheep and fish to get animal products which are eggs, milk, wool and fish. There are many levels created in the game. In order to complete each level, players need to complete the order given in each level. Players are only able to complete the order given at every level when they have enough amount of crops and animal products in the inventory of their farm. When each level is completed, a certain amount of coins can be earned. 
