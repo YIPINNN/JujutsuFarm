@@ -65,7 +65,25 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
 **Queue is used in classes such as "AnimalProduct" and "Order".**
 
 **In "AnimalProduct" class, queue is used to store and manage the number of animal products in the game.**
+1. Queue Constructor and Destructor:
+   - The constructor AnimalProduct::AnimalProduct() initializes the queue by setting the front and rear pointers point to nullptr, indicating an empty queue. The numItems variable is set to 0.
+   - The destructor AnimalProduct::~AnimalProduct() is responsible for freeing the memory allocated to the queue nodes. It calls the clear() function to dequeue and delete each node until the queue is empty.
 
+2. Enqueue and Dequeue Operations:
+   - The AnimalProduct::enqueue(int n) function adds a new animal productNum to the rear of the queue. It creates a new queue node, assigns the productNum to it, updates the pointers, and increments the numItems variable.
+   - The AnimalProduct::dequeue(int &n) function removes the front animal productNum from the queue and returns it through the reference parameter n. It updates the front pointer, deletes the previous front node, decrements the numItems variable.
+
+3. Queue State and Display:
+   - The AnimalProduct::isEmpty() const function checks if the queue is empty by examining the numItems variable. It returns true if the queue is empty else false.
+   - The AnimalProduct::displayProduct() function iterates through the queue and displays the animal productNum stored in each node.
+
+4. Queue Operations:
+   - The AnimalProduct::countProduct() function calculates the total number of animal products by traversing the queue and summing up the productNum. The number of total product is stored in the totalProduct variable.
+   - The AnimalProduct::setTotalProduct(int t) function sets the value of the totalProduct.
+   - The AnimalProduct::getTotalProduct() function retrieves the value of totalProduct.
+   - The AnimalProduct::subtract_2(int amt) function subtracts the specified amount (amt) from the front of productNum in the queue.
+   - The AnimalProduct::front_value() function returns the value of the productNum stored in the front node of the queue.
+  <!-- - The AnimalProduct::compare_2(int amt) function compares the specified amount (amt) with the sum of productNum in the queue. While sum < amt  returns the difference. -->
 
 ## Screenshot of the game
 ![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
