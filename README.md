@@ -3,6 +3,7 @@
 ## Description of the game
 Jujutsu Farm, a relaxing farming simulation game in which players begin on an exciting agricultural adventure. In this fascinating environment, players are responsible for growing abundant crops and rearing a wide variety of adorable animals. In the Jujutsu Farm, players can plant crops such as corn, tomatoes, potatoes, paddy, and soybeans. Players also can rear animals such as chickens, cows, sheep and fish to get animal products which are eggs, milk, wool and fish. There are many levels created in the game. In order to complete each level, players need to complete the order given in each level. Players are only able to complete the order given at every level when they have enough amount of crops and animal products in the inventory of their farm. When each level is completed, a certain amount of coins can be earned. 
 
+
 ## Features of the game
 Planting Crops: Players can grow a variety of crops such as corn, tomatoes, potatoes, paddy, and soybeans. Each planting of seeds will harvest 5 crops.
 
@@ -13,6 +14,7 @@ Level System: The game includes multiple levels, each with its own set of object
 Inventory Management: Players need to manage the storage of crops and animal products. To fulfill the orders at each level, players must ensure they have enough resources available. Managing the inventory effectively becomes crucial for progressing in the game.
 
 Coins and Rewards: Completing each level rewards players with a certain amount of coins.
+
 
 ## How to play the game
 First, players need to enter their names. Next, players need to enter if are they ready to start their farming journey. If players are ready, players are able to choose the task they want to do among the menu list which are 1. Plant new crops and rear new animals, 2. Complete customers' order, 3. Check inventory, 4. Check the amount of coins earned, 5. Quit. 
@@ -26,6 +28,7 @@ In choice number 3. Check inventory. Players are able to check the available sto
 In choice number 4. Check the amount of coins earned. While every order given is completed, players are able to earn a certain amount of coins. The total amount of coins earned for all level are calculated and stored here.
 
 In choice number 5. Quit. Players can quit the game by selecting choice number 5. All the progress of the game including the latest amount of inventory, incomplete order and total coins earned.
+
 
 ## How object-oriented concepts were used to develop the game.
 In Jujutsu Farm, the composition is the primary mechanism for building the game's entities and structures. 
@@ -116,9 +119,8 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The Order::getAmount() function retrieves the amount of the front order in the queue and returns it as an integer.
 
 
-
-
-
 ## Screenshot of the game
 ![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
+
+
 ## Link to the game  demo video
