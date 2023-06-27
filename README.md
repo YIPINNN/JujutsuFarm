@@ -97,7 +97,7 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The Order::inputFile() function reads order data from an input file (inputFile.txt) and appends the orders to the rear of the queue. Each order consists of a level, the amount of crops or animal products needed and the total coin earned. 
      
 3. Append Operation:
-   - The Order::append(int l, int c, string t, int a) function adds a new order to the rear of the queue. It creates a new node, assigns the level, the amount of crops or animal products needed and the total coin earned to it then updates the pointers and increments the numItems variable.
+   - The Order::append(int l, int c, string t, int a) function adds a new order to the rear of the queue. It creates a new node, assigns the level, the amount of crops or animal products needed and the total coin earned to it then updates the queue and increments the numItems variable.
 
 4. Dequeue Operation:
    - The Order::dequeue() const function displays the details of the front order in the queue. It prints the details of the order. If the queue is empty, it displays a message indicating no order available.
@@ -116,8 +116,10 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The Order::isEmpty() const function checks if the queue is empty by checking the numItems variable. It returns true if the queue is empty else returns false.
 
 9. Order Details Retrieval:
-   - The Order::getTask() function retrieves the task of the front order in the queue and returns it as a string.
-   - The Order::getAmount() function retrieves the amount of the front order in the queue and returns it as an integer.
+   - The Order::getTask() function retrieves the first task of the front order in the queue and returns it as a string.
+   - The Order::getAmount() function retrieves the first amount of the front order in the queue and returns it as an integer.
+   - The Order::getTask1() function retrieves the second task of the front order in the queue and returns it as a string.
+   - The Order::getAmount1() function retrieves the second amount of the front order in the queue and returns it as an integer.
 
 
 ## Screenshot of the game
