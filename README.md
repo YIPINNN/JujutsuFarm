@@ -126,6 +126,10 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
 
 
 ## Screenshot of the game
+
+![JF1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/d0b41ef7-f42c-4f1c-bdaf-ef6f5b99b677)
+
+
 ![JF1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/80e574e5-62d4-44f0-a725-4d2ef0cb69e3)
 ![JF2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/fa0a776e-bbb2-4fcf-b126-2b099feb705d)
 ![JF3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/affb97d9-7691-46ef-93b1-2e9d41a87b6f)
