@@ -83,7 +83,35 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The AnimalProduct::getTotalProduct() function retrieves the value of totalProduct.
    - The AnimalProduct::subtract_2(int amt) function subtracts the specified amount (amt) from the front of productNum in the queue.
    - The AnimalProduct::front_value() function returns the value of the productNum stored in the front node of the queue.
-  <!-- - The AnimalProduct::compare_2(int amt) function compares the specified amount (amt) with the sum of productNum in the queue. While sum < amt  returns the difference. -->
+   - The AnimalProduct::compare_2(int amt) function compares the specified amount (amt) with the sum of productNum in the queue. When the amount in the first node of the queue is less than the specified amount needed for the order (amt), this function will sum up the value of the previous node with the next node until the amount is bigger than the specified amount then return the difference.
+
+**In "Order" class, queue is used to manage orders in the game.**
+1. Queue Constructor:
+   - The constructor Order::Order() initializes the queue by setting the front and rear pointers to nullptr, indicating an empty queue. The numItems variable is set to 0.
+
+2. Append Operation:
+   - The Order::append(int l, int c, string t, int a) function adds a new order to the rear of the queue. It creates a new node, assigns the level, coin order, task, and amount to it, updates the pointers, and increments the numItems variable.
+
+3. Display Operation:
+   - The Order::displayOrder() const function displays the details of the front order in the queue. It prints the level, task, amount, and cost (coin order) of the order. If the queue is empty, it displays a message indicating no orders.
+
+4. Order Processing:
+   - The Order::calculate() function calculates the total coins earned by adding the coin order of the front order to the totalCoinEarned variable.
+   - The Order::deleteNode() function deletes the front order from the queue after calculating the coins earned. It updates the front pointer, deletes the old front node, and decrements the numItems variable.
+
+5. Financial Information:
+   - The Order::displayfinancial() function returns the total coins earned (totalCoinEarned).
+
+6. Queue State:
+   - The Order::isEmpty() const function checks if the queue is empty by examining the numItems variable. It returns true if the queue is empty and false otherwise.
+
+7. Order Details Retrieval:
+   - The Order::getTask() function retrieves the task of the front order in the queue and returns it as a string.
+   - The Order::getAmount() function retrieves the amount of the front order in the queue and returns it as an integer.
+
+
+
+
 
 ## Screenshot of the game
 ![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
