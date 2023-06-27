@@ -38,5 +38,5 @@ Stack is used in a class called PlantStack.
 Queue is used in classes such as AnimalProduct and Order.
 
 ## Screenshot of the game
-
+![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
 ## Link to the game  demo video
