@@ -36,9 +36,9 @@ In Jujutsu Farm, the composition is the primary mechanism for building the game'
 For example:
 plantAndRear Class: The "plantAndRear" class is the core class of Jujutsu Farm which represents how the player's farm works. The "plantAndRear" class is composed of various objects that collectively create the farm's functionality and structure. The "planAndRear" class is composed of these various objects, allowing for a flexible and modular design.
 
-PlantStack Class: The "PlantStack" class encapsulates properties and behaviors specific to each type of crop, such as the total amount harvested of crops and display the amount of harvested crops. Instances of the "PlantStack" class such as "Corn", "Paddy", "Soybean", "Tomato" and "Potato" are composed within the "plantAndRear" class to represent the different crops grown on the farm.
+PlantStack Class: The "PlantStack" class encapsulates properties and behaviors specific to each type of crop, such as the total amount harvested of crops and display the amount of harvested crops. Instances of the "PlantStack" class such as "Corn", "Paddy", "Soybean", "Tomato" and "Potato" are composed within the "plantAndRear" class to represent the different crops grown on the farm. Each object created is represented as one stack of that specific type of crop.
 
-AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behaviors specific to each type of animal product, such as the total amount of animal products and display of the amount of animal products. Instances of the Animal class are composed within the Farm class to represent the animals reared on the farm.
+AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behaviors specific to each type of animal product, such as the total amount of animal products and display of the amount of animal products. Instances of the Animal class are composed within the Farm class to represent the animals reared on the farm. Each object created is represented as one queue of that specific type of animal's product.
 
 
 ## How linked lists/stacks/queues play a role in the game.
