@@ -83,6 +83,7 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
 
 4. Queue Operations:
    - The AnimalProduct::countProduct() function calculates the total number of animal products by traversing the queue and summing up the productNum. The number of total product is stored in the totalProduct variable.
+   - The PlantStack::clear() function is used to delete all queue nodes.
    - The AnimalProduct::setTotalProduct(int t) function sets the value of the totalProduct.
    - The AnimalProduct::getTotalProduct() function retrieves the value of totalProduct.
    - The AnimalProduct::subtract_2(int amt) function subtracts the specified amount (amt) from the front of productNum in the queue.
