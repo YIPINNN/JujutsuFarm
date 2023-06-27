@@ -90,25 +90,28 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The constructor Order::Order() initializes the queue by setting the front and rear pointers to nullptr, indicating an empty queue. The numItems variable is set to 0.
 
 2. Input File:
-   - The Order::inputFile() function reads order data from an input file (inputFile.txt) and appends the orders to the rear of the queue. Each order consists of a level, coin order, task, task1, amount, and amount1. The reading continues until a special value (l == 1000) is encountered.
+   - The Order::inputFile() function reads order data from an input file (inputFile.txt) and appends the orders to the rear of the queue. Each order consists of a level, the amount of crops or animal products needed and the total coin earned. 
      
 3. Append Operation:
-   - The Order::append(int l, int c, string t, int a) function adds a new order to the rear of the queue. It creates a new node, assigns the level, coin order, task, and amount to it, updates the pointers, and increments the numItems variable.
+   - The Order::append(int l, int c, string t, int a) function adds a new order to the rear of the queue. It creates a new node, assigns the level, the amount of crops or animal products needed and the total coin earned to it then updates the pointers and increments the numItems variable.
 
-4. Display Operation:
-   - The Order::displayOrder() const function displays the details of the front order in the queue. It prints the level, task, amount, and cost (coin order) of the order. If the queue is empty, it displays a message indicating no orders.
+4. Dequeue Operation:
+   - The Order::dequeue() const function displays the details of the front order in the queue. It prints the details of the order. If the queue is empty, it displays a message indicating no order available.
 
-5. Order Processing:
-   - The Order::calculate() function calculates the total coins earned by adding the coin order of the front order to the totalCoinEarned variable.
-   - The Order::deleteNode() function deletes the front order from the queue after calculating the coins earned. It updates the front pointer, deletes the old front node, and decrements the numItems variable.
+5. Print to File:
+   - The Order::printToFile() function writes the latest order data from the queue back to the input file (inputFile.txt). It iterates through the queue, retrieves the order details, and writes them to the file. Hence, the progress of the order can be saved.
 
-6. Financial Information:
-   - The Order::displayfinancial() function returns the total coins earned (totalCoinEarned).
+6. Order Processing:
+   - The Order::calculate() function calculates the total coins earned by adding the coin earned of every order to the totalCoinEarned variable.
+   - The Order::deleteNode() function deletes the front order from the queue after calculating the coins earned. It updates the front pointer, deletes the previous front node and decrements the numItems variable.
 
-7. Queue State:
-   - The Order::isEmpty() const function checks if the queue is empty by examining the numItems variable. It returns true if the queue is empty and false otherwise.
+7. Financial Information:
+   - The Order::displayfinancial() function returns the total price which is the total coin earned.
 
-8. Order Details Retrieval:
+8. Queue State:
+   - The Order::isEmpty() const function checks if the queue is empty by checking the numItems variable. It returns true if the queue is empty else returns false.
+
+9. Order Details Retrieval:
    - The Order::getTask() function retrieves the task of the front order in the queue and returns it as a string.
    - The Order::getAmount() function retrieves the amount of the front order in the queue and returns it as an integer.
 
