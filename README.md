@@ -50,20 +50,21 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The destructor PlantStack::~PlantStack() is responsible for freeing the memory allocated to the stack nodes. It iterates through the stack and deletes each node until the stack is empty.
 
 2. Push and Pop Operations:
-   - The PlantStack::push(int n) function adds a new plant count to the top of the stack. It creates a new stack node, assigns the plant count to it, and updates the pointers to maintain the stack order.
-   - The PlantStack::pop(int &n) function removes the top plant count from the stack and returns it through the reference parameter n. It updates the stack pointers and deletes the old top node.
+   - The PlantStack::push(int n) function adds a new plant count to the top of the stack. It creates a new stack node and assigns the numPlant to it. Value of n is push into the stack.
+   - The PlantStack::pop(int &n) function removes the top numPlant from the stack and returns it through the reference parameter n. It updates the stack pointers and deletes the previous top node.
 
 3. Stack State and Display:
    - The PlantStack::isEmptyStack() const function checks if the stack is empty by examining the stackTop pointer. It returns true if the stack is empty else false.
-   - The PlantStack::displayStack() function iterates through the stack and displays the plant counts stored in each node.
+   - The PlantStack::displayStack() function iterates through the stack and displays the numPlant stored in each node.
 
 4. Stack Operations:
-   - The PlantStack::countHarvest() function calculates the total harvest by traversing the stack and summing up the plant counts. The total harvest is stored in the totalHarvest member variable.
+   - The PlantStack::countHarvest() function calculates the total harvest by traversing the stack and summing up the numPlant. The total harvest is stored in the totalHarvest variable.
+   - The PlantStack::clear() function is used to delete all stack nodes.
    - The PlantStack::setTotalHarvest(int t) function sets the value of the total harvest.
    - The PlantStack::getTotalHarvest() function retrieves the total harvest value.
-   - The PlantStack::subtract(int amt) function subtracts the specified amount (amt) from the top plant count in the stack.
-   - The PlantStack::compare(int amt) function compares the specified amount (amt) with the sum of the plant counts in the stack and returns the difference.
-   - The PlantStack::stackTop_value() function returns the value of the plant count stored in the top node of the stack.
+   - The PlantStack::subtract(int amt) function subtracts the specified amount (amt) from the top numPlant in the stack.
+   - The PlantStack::compare(int amt) function compares the specified amount (amt) with the sum of the numPlant in the stack and returns the difference.
+   - The PlantStack::stackTop_value() function returns the value of the numPlant stored in the top node of the stack.
 
 **Queue is used in classes such as "AnimalProduct" and "Order".**
 
