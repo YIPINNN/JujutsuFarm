@@ -101,7 +101,7 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The Order::append(int l, int c, string t, int a) function adds a new order to the rear of the queue. It creates a new node, assigns the level, the amount of crops or animal products needed and the total coin earned to it then updates the queue and increments the numItems variable.
 
 4. Dequeue Operation:
-   - The Order::dequeue() const function displays the details of the front order in the queue. It prints the details of the order. If the queue is empty, it displays a message indicating no order available.
+   - The Order::displayOrder() const function displays the details of the front order in the queue. It prints the details of the order. If the queue is empty, it displays a message indicating no order available.
 
 5. Print to File:
    - The Order::printToFile() function writes the latest order data from the queue back to the input file (inputFile.txt). It iterates through the queue, retrieves the order details, and writes them to the file. Hence, the progress of the order can be saved.
