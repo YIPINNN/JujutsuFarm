@@ -31,9 +31,7 @@ In choice number 5. Quit. Players can quit the game by selecting choice number 5
 In Jujutsu Farm, the composition is the primary mechanism for building the game's entities and structures. 
 
 For example:
-plantAndRear Class: The "plantAndRear" class is the core class of Jujutsu Farm which represents how the player's farm works. The "plantAndRear" class is composed of various objects that collectively create the farm's functionality and structure. The "planAndRear" class composition 
-
-contains instances of crop and animal objects, as well as other game objects like inventory, marketplaces, and land plots. The Farm class is composed of these various objects, allowing for a flexible and modular design.
+plantAndRear Class: The "plantAndRear" class is the core class of Jujutsu Farm which represents how the player's farm works. The "plantAndRear" class is composed of various objects that collectively create the farm's functionality and structure. The "planAndRear" class is composed of these various objects, allowing for a flexible and modular design.
 
 PlantStack Class: The "PlantStack" class encapsulates properties and behaviors specific to each type of crop, such as the total amount harvested of crops and display the amount of harvested crops. Instances of the "PlantStack" class such as "Corn", "Paddy", "Soybean", "Tomato" and "Potato" are composed within the "plantAndRear" class to represent the different crops grown on the farm.
 
@@ -41,8 +39,9 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
 
 
 ## How linked lists/stacks/queues play a role in the game.
-**Stack is used in a class called "PlantStack". In "PlantStack" class, stack is used to store and manage the number of crops.**
+**Stack is used in a class called "PlantStack".** 
 
+**In "PlantStack" class, stack is used to store and manage the number of crops.**
 1. Stack Constructor and Destructor:
    - The constructor PlantStack::PlantStack() initializes the stack by setting the stackTop pointer to nullptr, indicating an empty stack.
    - The destructor PlantStack::~PlantStack() is responsible for freeing the memory allocated to the stack nodes. It iterates through the stack and deletes each node until the stack is empty.
@@ -63,8 +62,10 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
    - The PlantStack::compare(int amt) function compares the specified amount (amt) with the sum of the plant counts in the stack and returns the difference.
    - The PlantStack::stackTop_value() function returns the value of the plant count stored in the top node of the stack.
 
+**Queue is used in classes such as "AnimalProduct" and "Order".**
 
-Queue is used in classes such as "AnimalProduct" and "Order".
+**In "AnimalProduct" class, queue is used to store and manage the number of animal products in the game.**
+
 
 ## Screenshot of the game
 ![Screenshot 2023-06-21 174056](https://github.com/YIPINNN/JujutsuFarm/assets/117891859/a1110d27-1b20-4c9c-825e-1716e1fcf454)
