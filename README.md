@@ -35,13 +35,34 @@ plantAndRear Class: The "plantAndRear" class is the core class of Jujutsu Farm w
 
 contains instances of crop and animal objects, as well as other game objects like inventory, marketplaces, and land plots. The Farm class is composed of these various objects, allowing for a flexible and modular design.
 
-PlantStack Class: The "PlantStack" class encapsulates properties and behaviors specific to each type of crop, such as the total amount harvested of crops, display the amount of harvested crops. Instances of the "PlantStack" class such as "Corn", "Paddy", "Soybean", "Tomato" and "Potato" are composed within the "plantAndRear" class to represent the different crops grown on the farm.
+PlantStack Class: The "PlantStack" class encapsulates properties and behaviors specific to each type of crop, such as the total amount harvested of crops and display the amount of harvested crops. Instances of the "PlantStack" class such as "Corn", "Paddy", "Soybean", "Tomato" and "Potato" are composed within the "plantAndRear" class to represent the different crops grown on the farm.
 
-AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behaviors specific to each type of animal product, such as . Instances of the Animal class are composed within the Farm class to represent the animals reared on the farm.
+AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behaviors specific to each type of animal product, such as the total amount of animal products and display of the amount of animal products. Instances of the Animal class are composed within the Farm class to represent the animals reared on the farm.
 
 
 ## How linked lists/stacks/queues play a role in the game.
-Stack is used in a class called "PlantStack".
+**Stack is used in a class called "PlantStack". In "PlantStack" class, stack is used to store and manage the number of crops.**
+
+1. Stack Constructor and Destructor:
+   - The constructor PlantStack::PlantStack() initializes the stack by setting the stackTop pointer to nullptr, indicating an empty stack.
+   - The destructor PlantStack::~PlantStack() is responsible for freeing the memory allocated to the stack nodes. It iterates through the stack and deletes each node until the stack is empty.
+
+2. Push and Pop Operations:
+   - The PlantStack::push(int n) function adds a new plant count to the top of the stack. It creates a new stack node, assigns the plant count to it, and updates the pointers to maintain the stack order.
+   - The PlantStack::pop(int &n) function removes the top plant count from the stack and returns it through the reference parameter n. It updates the stack pointers and deletes the old top node.
+
+3. Stack State and Display:
+   - The PlantStack::isEmptyStack() const function checks if the stack is empty by examining the stackTop pointer. It returns true if the stack is empty else false.
+   - The PlantStack::displayStack() function iterates through the stack and displays the plant counts stored in each node.
+
+4. Stack Operations:
+   - The PlantStack::countHarvest() function calculates the total harvest by traversing the stack and summing up the plant counts. The total harvest is stored in the totalHarvest member variable.
+   - The PlantStack::setTotalHarvest(int t) function sets the value of the total harvest.
+   - The PlantStack::getTotalHarvest() function retrieves the total harvest value.
+   - The PlantStack::subtract(int amt) function subtracts the specified amount (amt) from the top plant count in the stack.
+   - The PlantStack::compare(int amt) function compares the specified amount (amt) with the sum of the plant counts in the stack and returns the difference.
+   - The PlantStack::stackTop_value() function returns the value of the plant count stored in the top node of the stack.
+
 
 Queue is used in classes such as "AnimalProduct" and "Order".
 
