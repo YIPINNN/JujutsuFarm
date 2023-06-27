@@ -128,22 +128,19 @@ AnimalProduct Class: The "AnimalProduct" class encapsulates properties and behav
 ## Screenshot of the game
 
 ![JF1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/d0b41ef7-f42c-4f1c-bdaf-ef6f5b99b677)
-
-
-![JF1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/80e574e5-62d4-44f0-a725-4d2ef0cb69e3)
-![JF2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/fa0a776e-bbb2-4fcf-b126-2b099feb705d)
-![JF3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/affb97d9-7691-46ef-93b1-2e9d41a87b6f)
-![JF4](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/13359087-4c6e-4dca-83b1-6e979ea3f478)
-![JF5](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/d9a6feb5-2705-4446-b672-2ffae06af092)
-![JF6](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/726e96f4-94e8-47bc-9e27-d497ef85b6de)
-![JF7](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/59383306-811e-42df-a38d-689064eb5531)
-![JF8](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/a7bedee6-620a-4339-bf90-b5eca24edc99)
-![JF2 1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/f5c3a071-c8ca-4886-9c59-9d02f38370b1)
-![JF2 2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/cfecaa6f-8f9d-4579-a23d-eba8c1e746dd)
-![JF2 3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/71d06616-dda1-40df-9f83-549c955b664d)
-![JF2 4](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/78a50534-2fee-4f53-a4ee-f29e9727f130)
-![JF2 5](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/15cced4f-cfaf-4306-bffb-67102c93cdc3)
-![JF2 6](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/962de13f-a5c4-446d-b49e-e0286e6181c6)
+![JF2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/ec4ed083-7a5d-4dca-99fc-9970e2ad890f)
+![JF3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/85c7fb15-d015-425a-960e-058b277a38b6)
+![JF4](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/0cc6c586-2fb1-4372-a631-5fa074a5ff2e)
+![JF5](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/598cca59-70c8-4671-9ac1-394a77674053)
+![JF6](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/8abbd785-2a18-4a5a-8084-e43b7239770b)
+![JF7](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/386f0f23-2c8b-4bd2-89fe-e06168a10a60)
+![JF8](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/a6fdbe50-048a-4717-a3bf-7f73a75f5bfe)
+![JF2 1](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/5ffea754-a4d5-4eb0-8040-148d2431832f)
+![JF2 2](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/04cf7ff4-0147-475d-8454-74e61a8bd0e3)
+![JF2 3](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/03ecaa1b-7f28-4bfc-958c-15c2e3f18372)
+![JF2 4](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/4dfadb9d-2720-4458-a77a-1fe15ba1eb44)
+![JF2 5](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/4116439a-cfc5-4cb2-b158-757ea2064cdb)
+![JF2 6](https://github.com/YIPINNN/JujutsuFarm/assets/116947179/c6554b63-72f2-4176-b033-ecb5d1561e1f)
 
 
 ## Link to the game  demo video
